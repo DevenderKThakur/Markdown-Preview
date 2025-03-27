@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.0.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <h1>Markdown Previewer</h1>
+    <div class="container">
+      <textarea
+        id="markdownInput"
+        placeholder="Type the content here..."
+      ></textarea>
+      <div id="preview" class="preview"></div>
+    </div>
+    <button>Clear</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
