@@ -31,7 +31,7 @@ A simple web-based Markdown Previewer that allows users to enter Markdown text i
 - On smaller screens (below 768px), the layout switches to a stacked view for better readability.
 
 ## Screenshot
-![Markdown Previewer](Screenshot(6).png)
+<img src="./Screenshot(6).png"/>
 
 ## License
 
